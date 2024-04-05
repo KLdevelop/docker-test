@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return requests.get('http://nginx/server/api/hello').text
+    return requests.get('https://nginx/api/hello', verify=False).text

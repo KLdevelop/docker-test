@@ -1,3 +1,5 @@
 client/.venv
 server/.venv
 modules.txt
+*.key
+*.crt
